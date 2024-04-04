@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticketing.Service", "Ticketing.Service\Ticketing.Service.csproj", "{3DFD7D4B-D14B-4ADA-A211-F1317258FEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticketing.Publisher.Service", "Ticketing.Service\Ticketing.Publisher.Service.csproj", "{3DFD7D4B-D14B-4ADA-A211-F1317258FEB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Processing.Service", "Order.Processing.Service\Order.Processing.Service.csproj", "{68736635-875E-41C9-9F9C-AFD92D8CB2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order.Processing.Consumer.Service", "Order.Processing.Service\Order.Processing.Consumer.Service.csproj", "{68736635-875E-41C9-9F9C-AFD92D8CB2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Models", "Shared.Models\Shared.Models.csproj", "{1DEDED16-791F-4F43-AD22-C7FDE46BD731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{68736635-875E-41C9-9F9C-AFD92D8CB2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68736635-875E-41C9-9F9C-AFD92D8CB2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68736635-875E-41C9-9F9C-AFD92D8CB2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEDED16-791F-4F43-AD22-C7FDE46BD731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEDED16-791F-4F43-AD22-C7FDE46BD731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEDED16-791F-4F43-AD22-C7FDE46BD731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEDED16-791F-4F43-AD22-C7FDE46BD731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
